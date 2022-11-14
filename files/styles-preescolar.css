@@ -85,99 +85,153 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* -------------------------END OF HEADER NAVBAR AREA------------------------- */
 
 /* -------------------------MAIN------------------------- */
-/* ------------SCHOOL INFO AREA------------ */
-.school-header{
-width:100%;
-height: 150px;
-background-color:rgb(0, 60, 76);
+/* ------------PREESCOLAR AREA------------ */
+.row.about{
+    margin: 0;
 }
-div.back-tittle{
-margin: 0;
+.preescolar-container{
+    box-sizing: border-box;
 }
-.school-header-tittle{
-text-align: center;
-padding-top: 10%;
-margin: auto;
-font-weight: 400;
-color: rgba(245, 245, 245, 0.813);
+.preescolar-tittle{
 font-family: 'roboto', sans-serif;
-font-size: 36px;
-letter-spacing: 1px;
-font-weight: 600;
-}
-.school-sepp{
-height: 5px;
-border-radius: 3px;
-width: 50%;
-margin-left: 25%;
-margin-top: 1%;
-color: #ffffff;
-border-color: #ffffff;
-background-color: #ffffff;
-}
-.school-sepp2{
-height: 5px;
-border-radius: 3px;
-width: 25%;
-margin: auto;
-margin-top: -5%;
-margin-bottom: 10%;
-color: rgba(0, 158, 202, 0.729);
-border-color: rgb(0, 158, 202, 0.729);
-background-color: rgb(0, 158, 202, 0.729);
-}
-.school-area{
-width:100%;
-}
-.edificio-image{
-margin-top: 8%;
-margin-bottom: 8%;
-display: flex;
-}
-.img-edificio{
-margin: auto;
-width: 50%;
-}
-.img-util{
-padding: 0;
-overflow: hidden;
-position: relative;
-}
-.util-bg{
-opacity: 0.07;
-height: 100%;
-position: absolute;
-}
-.school-container{
-padding-top: 5%;
-position: relative;
-display: block;
-}
-.school-tittle{
-padding-top: 5%;
+font-weight: bold;
+font-size: 32px;
 text-align: center;
-font-size: 22px;
-letter-spacing: 1px;
 color: rgb(0, 112, 143);
-font-family: 'Archivo Black', sans-serif;
+font-weight: 500;
+max-width: 540px;
+line-height: 1.2;
 }
-.school-description{
-font-family: 'open sans', sans-serif;
-text-align: justify;
-margin-top: 5%;
-margin-left: 10%;
-margin-right:10%;
+.preescolar-description{
+    line-height: 24px;
+    margin: auto;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
 }
-.icons-image{
+.img-preescolar{
+    padding-top: 27px;
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* ------------END OF PREESCOLAR AREA------------ */
+/* ------------PHRASE AREA------------ */
+.phrase-area{
+    width: 100%;
+}
+.row.phrase{
+    padding: 0;
+    margin: 0;
+}
+.phrase-container{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5%;
+}
+.phrase-tittle{
+    font-size: 22px;
+    color: rgb(90, 90, 90);
+    line-height: 1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'montserrat', sans-serif;
+}
+.phrase-sepp{
+    border: 0;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #f0e68c, #ffcc00, #f0e68c);
+}
+/* ------------END OF PHRASE AREA------------ */
+/* ------------APRENDIZAJE AREA------------ */
+.aprendizajes-area{
+width: 100%;
 display: flex;
 justify-content: center;
+
+margin-bottom: 15%;
 }
-.img-icons{
-width: 20%;
-padding-top: 1%;
-padding-bottom: 7%;
+.wrapper {
+width: 100%;
+display: grid;
+justify-items: center;
+grid-template-columns: repeat(2, 50%);
+gap: 10px;
+grid-auto-rows: 100px 200px;
 }
-/* ------------SCHOOL INFO AREA------------ */
+.aprendizajes-description{
+font-size: 13px;
+padding-right: 5%;
+padding-left: 12%;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-description2{
+font-size: 13px;
+padding-right: 12%;
+padding-left: 5%;
+height: fit-content;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-icon1{
+    color: rgb(0, 113, 144);
+    bottom: 20%;
+    justify-items: center;
+    font-size: 54px;
+}
+.aprendizajes-icon2{
+    color: rgb(0, 113, 144);
+    bottom: 20%;
+    justify-items: center;
+    font-size: 54px;
+}
+.aprendizajes-icon3{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 54px;
+}
+.aprendizajes-icon4{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 54px;
+}
+/* ------------END OF APRENDIZAJE AREA------------ */
+/* ------------INRB AREA------------ */
+.inrb-area{
+background-color: rgba(231, 251, 255, 0.414);
+width: 100%;
+margin: auto;
+padding: 0%;
+border-radius: 10px;
+margin-bottom: 5%;
+}
+.row.inrb{
+width: 100%;
+margin: 0;
+padding: 0%;
+}
+.inrb-description{
+line-height: 24px;
+margin: auto;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 5%;
+font-size: 14px;
+font-family: 'open sans', sans-serif;
+}
+.img-inrb{
+width:150px;
+height:150px;
+border-radius:150px;
+margin-top: 5%;
+margin-left: 5%;
+margin-bottom: 5%;
+}
+/* ------------END OF INRB AREA------------ */
 /* -------------------------END OF MAIN------------------------- */
 
 /* -------------------------FOOTER AREA------------------------- */
@@ -245,9 +299,9 @@ hr.foot-line1{
         padding: 0;
 }
 .sc-ierb{
-float: left;
-padding-right: 8%;
-padding-bottom: 6%;
+        float: left;
+        padding-right: 6%;
+        padding-bottom: 6%;
 }
 .sc-ierb2{
         color:rgb(0, 112, 143);
@@ -380,27 +434,25 @@ hr.foot-line2{
 .submit-form:hover {
         background-position: 0;
 }
-.submit-go-form{
-        display: none;
-}
 /* -----------END OF FORM AREA----------- */
+
 /* -------------------------END OF FOOTER AREA------------------------- */
 
 /* -------------------------COPYRIGHT SECTION------------------------- */
-.copy-back{
+    .copy-back{
     height: 50px;
     width: auto;
     background-color: rgb(0, 59, 75);
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.copy-text{
+    }
+    .copy-text{
     color: rgb(164, 164, 164);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     padding-top: 8px;
-}
+    }
 /* -------------------------END OF COPYRIGHT SECTION------------------------- */
 
 
@@ -444,7 +496,7 @@ hr.foot-line2{
     justify-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}       
+}     
 .nav-item{
     padding: 0px;
 }
@@ -464,63 +516,130 @@ hr.foot-line2{
     transition: padding-right .1s;
 }
 /* -------------------------END OF HEADER NAVBAR LANDSCAPE------------------------- */
-
 /* -------------------------MAIN LANDSCAPE------------------------- */
-/* ------------SCHOOL INFO AREA LANDSCAPE------------ */
-.school-header{
-width:100%;
-height: 200px;
-background-color:rgb(0, 60, 76);
-}
-.school-header-tittle{
-display: block;
-text-align: center;
-margin-top: 12%;
-margin: auto;
-font-weight: 400;
-color: rgba(245, 245, 245, 0.813);
+/* ------------PREESCOLAR AREA------------ */
+.preescolar-tittle{
 font-family: 'roboto', sans-serif;
-font-size: 36px;
-letter-spacing: 1px;
-font-weight: 600;
-}
-.school-sepp{
-height: 5px;
-border-radius: 3px;
-width: 50%;
-margin-left: 25%;
-margin-top: 1%;
-color: #ffffff;
-border-color: #ffffff;
-background-color: #ffffff;
-}
-.school-tittle{
-padding-top: 5%;
-text-align: center;
+font-weight: bold;
 font-size: 28px;
-letter-spacing: 1px;
+text-align: center;
 color: rgb(0, 112, 143);
-font-family: 'Archivo Black', sans-serif;
+font-weight: 500;
+max-width: 540px;
+line-height: 1.2;
 }
-.school-description{
+.preescolar-description{
+line-height: 20px;
+margin: auto;
+text-align: center;
+margin-left: 5%;
+margin-right: 5%;
+margin-bottom: 10px;
+font-size: 14px;
 font-family: 'open sans', sans-serif;
-text-align: justify;
-margin-top: 2%;
-margin-left: 15%;
-margin-right:15%;
 }
-.icons-image{
-justify-content: center;
+.img-preescolar{
+padding-top: 27px;
+margin-bottom: 15px;
+width: 45%;
+margin-left: 27.5%;
+margin-right: 27.5%;
 }
-.img-icons{
-width: 15%;
-padding-top: 1%;
-padding-bottom: 7%;
+/* ------------END OF PREESCOLAR AREA------------ */
+/* ------------PHRASE AREA------------ */
+.phrase-area{
+width: 100%;
 }
-/* ------------SCHOOL INFO AREA LANDSCAPE------------ */
-
+.row.phrase{
+padding: 0;
+margin: 0;
+}
+.phrase-container{
+box-sizing: border-box;
+text-align: center;
+margin: auto;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.phrase-tittle{
+font-size: 22px;
+color: rgb(90, 90, 90);
+line-height: 1;
+padding: 0;
+letter-spacing: 1px;
+font-family: 'montserrat', sans-serif;
+}
+.phrase-sepp{
+border: 0;
+border-radius: 2px;
+width: 100%;
+height: 4px;
+background-image: linear-gradient(to right, #f0e68c, #ffcc00, #f0e68c);
+}
+/* ------------END OF PHRASE AREA------------ */
+/* ------------APRENDIZAJE AREA------------ */
+.aprendizajes-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+.wrapper {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 50%);
+    gap: 9px;
+    grid-auto-rows: 100px 150px;
+}
+.aprendizajes-description{
+    line-height: 20px;
+    font-size: 14px;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-family: 'open sans', sans-serif;
+}
+.aprendizajes-description2{
+    line-height: 20px;
+    font-size: 14px;
+    padding-right: 12%;
+    padding-left: 5%;
+    height: fit-content;
+    font-family: 'open sans', sans-serif;
+}
+/* ------------END OF APRENDIZAJE AREA------------ */
+/* ------------INRB AREA------------ */
+.inrb-area{
+    background-color: rgba(231, 251, 255, 0.414);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: -8%;
+    width: 600px;
+    margin-bottom: 5%;
+}
+.inrb-packet{
+        margin-top: 5%;
+        margin-bottom: 5%;
+}
+.row.inrb{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+}
+.inrb-description{
+    line-height: 24px;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.img-inrb{
+    width:120px;
+    height:120px;
+    border-radius:150px;
+    margin-left: 25%;
+}
+/* ------------END OF INRB AREA------------ */
 /* -------------------------END OF MAIN LANDSCAPE------------------------- */
-
 /* -------------------------FOOTER LANDSCAPE------------------------- */
 /* ------------SOCIALS AREA------------ */
 .mail{
@@ -564,153 +683,195 @@ display: inline-block;
 @media (min-width: 768px)
 { 
 /* -------------------------HEADER NAVBAR TABLET------------------------- */
-.navbar-brand{
+    .navbar-brand{
     background: none;
     width: auto;
     margin: auto;
-}
-.logo{
+    }
+
+    .logo{
     width: 80%;
-}
-.doll{
+    }
+
+    .doll{
     width: 25%;
-}
-.dropdown-menu{
+     }
+
+    .dropdown-menu{
     width: 100%;
     text-align: center;
     align-items: center;
     justify-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-}   
-.nav-item{
+    }
+        
+    .nav-item{
     padding: 0px;
-}
-.navbar-toggler{
+    }
+
+    .navbar-toggler{
     width: auto;
     margin:auto;
-}
-.navbar-toggler{
+    }
+        .navbar-toggler{
     padding: 2%;
     width: auto;
     margin:auto;
     border: 0px;
     transition: 1s;
-}
-.nav-link:hover{
+    }
+
+    .nav-link:hover{
     color: rgb(23, 111, 146);
     font-weight: bold;
-}
-.nav-item:hover{
+    }
+
+    .nav-item:hover{
     padding-right: 10px;
     transition: padding-right .1s;
-}
+    }
 /* -------------------------END OF HEADER NAVBAR TABLET------------------------- */
 /* -------------------------MAIN TABLET------------------------- */
-/* ------------SCHOOL INFO AREA TABLET------------ */
-.school-header{
-width:100%;
-height: 220px;
-background-color:rgb(0, 60, 76);
+/* ------------PREESCOLAR AREA------------ */
+.row.about{
+margin: 0;
 }
-.school-header-tittle{
-display: block;
-text-align: center;
-padding-top: 9%;
-margin: auto;
-font-weight: 400;
-color: rgba(245, 245, 245, 0.813);
+.preescolar-container{
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+.preescolar-tittle{
 font-family: 'roboto', sans-serif;
-font-size: 36px;
-letter-spacing: 1px;
-font-weight: 600;
-}
-.school-sepp{
-height: 5px;
-border-radius: 3px;
-width: 30%;
-margin-left: 35%;
-margin-top: 1%;
-color: #ffffff;
-border-color: #ffffff;
-background-color: #ffffff;
-}
-.school-sepp2{
-height: 5px;
-border-radius: 3px;
-width: 20%;
-margin: auto;
-margin-top: -3%;
-margin-bottom: 5%;
-color: rgba(0, 158, 202, 0.729);
-border-color: rgb(0, 158, 202, 0.729);
-background-color: rgb(0, 158, 202, 0.729);
-}
-.school-area{
-width:100%;
-}
-.edificio-image{
-width: 100%;
-margin-top: 5%;
-}
-.img-edificio{
-width: 50%;
-}
-.img-util{
-padding: 0;
-overflow: hidden;
-position: relative;
-}
-.util-bg{
-opacity: 0.07;
-height: 100%;
-position: absolute;
-}
-.school-container-2{
-position: relative;
-}
-.historia{
-margin: auto;
-text-align: center;
-}
-.school-tittle.historia-tittle{
-margin: auto;
-margin-top: 2%;
-}
-.school-description.historia-text{
-margin: auto;
-margin-top: 2%;
-margin-bottom: 5%;
-}
-.school-tittle{
-padding-top: 5%;
-margin: auto;
-margin-left: 30%;
-text-align: center;
-font-size: 30px;
-letter-spacing: 1px;
+font-weight: bold;
+font-size: 32px;
 color: rgb(0, 112, 143);
-font-family: 'Archivo Black', sans-serif;
+font-weight: 500;
+line-height: 24px;
+margin-top: 5%;
+margin-bottom: 3%;
 }
-.school-description{
-font-family: 'open sans', sans-serif;
+.preescolar-description{
+line-height: 20px;
 text-align: center;
-margin: auto;
-margin-left: 30%;
-margin-top: 2%;
+font-size: 14px;
+font-family: 'open sans', sans-serif;
+}
+.img-preescolar{
+width: 45%;
+}
+/* ------------END OF PREESCOLAR AREA------------ */
+/* ------------PHRASE AREA------------ */
+.phrase-area{
+width: 100%;
+}
+.row.phrase{
+padding: 0;
+margin: 0;
+}
+.phrase-container{
+box-sizing: border-box;
+margin-top: 10%;
 margin-bottom: 10%;
 }
-.icons-image{
-margin: auto;
-margin-top: 13%;
+.phrase-tittle{
+font-size: 24px;
+color: rgb(90, 90, 90);
+padding: 0;
+letter-spacing: 0px;
+font-family: 'montserrat', sans-serif;
+}
+.phrase-sepp{
+border: 0;
+border-radius: 2px;
+width: 100%;
+height: 4px;
+background-image: linear-gradient(to right, #f0e68c, #ffcc00, #f0e68c);
+}
+/* ------------END OF PHRASE AREA------------ */
+/* ------------APRENDIZAJE AREA------------ */
+.aprendizajes-area{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.wrapper {
+width: 100%;
+display: grid;
+justify-items: center;
+grid-template-columns: repeat(2, 50%);
+gap: 9px;
+grid-auto-rows: 100px 150px;
+}
+.aprendizajes-description{
+line-height: 20px;
+font-size: 14px;
+padding-right: 7%;
+padding-left: 6%;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-description2{
+line-height: 20px;
+font-size: 14px;
+padding-right: 7%;
+padding-left: 6%;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-icon1{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 64px;
+}
+.aprendizajes-icon2{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 64px;
+}
+.aprendizajes-icon3{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 64px;
+}
+.aprendizajes-icon4{
+    color: rgb(0, 113, 144);
+    justify-items: center;
+    font-size: 64px;
+}
+/* ------------END OF APRENDIZAJE AREA------------ */
+/* ------------INRB AREA------------ */
+.inrb-area{
+background-color: rgba(231, 251, 255, 0.414);
+border-radius: 10px;
+margin-top: 5%;
+width: 800px;
 margin-bottom: 5%;
 }
-.img-icons{
-width: 22%;
-margin: auto;
+.inrb-packet{
+margin-top: 5%;
+margin-bottom: 5%;
 }
-    /* ------------SCHOOL INFO AREA TABLET------------ */
-    
+.row.inrb{
+width: 100%;
+margin: 0;
+padding: 0%;
+}
+.inrb-description{
+line-height: 24px;
+margin-top: 8%;
+margin-right: 20%;
+font-size: 14px;
+font-family: 'open sans', sans-serif;
+}
+.img-inrb{
+margin-left: 20%;
+width:180px;
+height:180px;
+border-radius:150px;
+}
+/* ------------END OF INRB AREA------------ */
 /* -------------------------END OF MAIN TABLET------------------------- */
 /* -------------------------FOOTER TABLET------------------------- */
 .foot{
@@ -908,10 +1069,8 @@ hr.foot-line2{
 }
 .submit-form:hover {
         background-position: 0;
-}
-/* -----------END OF FORM TABLET----------- */
+}/* -----------END OF FORM TABLET----------- */
 /* -------------------------END OF FOOTER TABLET------------------------- */
-
 }
  
 
@@ -941,170 +1100,197 @@ hr.foot-line2{
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) 
 {
-    /* -----------NAVBAR PC----------- */
-    .navbar-brand{
+/* -----------NAVBAR PC----------- */
+.navbar-brand{
     background: none;
     width: 25%;
     margin-right:10%;
-    }
-
-    .navbar{
+}
+.navbar{
     display: flex;
     height: 200px;
     padding-top: 3%;
     background-color: rgba(0, 255, 255, 0.049);
-    }
-    .logo{
+}
+.logo{
     width: 100%;
-    }
-
-    .doll{
+}
+.doll{
     width: 80px;
-    }
-    
-    .dropdown-menu{
+}
+.dropdown-menu{
     width: auto;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    }
-
-    .navbar-nav{
+}
+.navbar-nav{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    }
-
-    .nav-item{
+}
+.nav-item{
     padding: 20px;
     text-align: center;
-    }
-
-    .nav-item:hover{
+}
+.nav-item:hover{
     padding-top: 5px;
     transition: padding-top .1s;
-    }
-
-    .nav-link:hover{
+}
+.nav-link:hover{
     color: rgb(23, 111, 146);
     font-weight: bold;
-    }
-
-    .dropdown:hover .dropdown-menu{
+}
+.dropdown:hover .dropdown-menu{
         display: block;
-        }
-    /* -----------END OF NAVBAR PC----------- */
+}
+/* -----------END OF NAVBAR PC----------- */
 /* -------------------------MAIN AREA PC------------------------- */
-/* ------------SCHOOL INFO AREA------------ */
-.school-header{
-    width:100%;
-    height: 200px;
-    background-color:rgb(0, 60, 76);
-    }
-    div.back-tittle{
-    margin: auto;
-    margin-bottom: -3%;
-    }
-    .school-area{
-    width:100%;
-    display: block;
-    }
-    .school-header-tittle{
-    text-align: center;
-    margin: auto;
-    margin-top: -5%;
-    font-weight: 400;
-    color: rgba(245, 245, 245, 0.813);
-    font-family: 'roboto', sans-serif;
-    font-size: 36px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    }
-    .school-sepp{
-    height: 5px;
-    border-radius: 3px;
-    width: 12%;
-    margin-left: 44%;
-    margin-top: 1%;
-    color: #ffffff;
-    border-color: #ffffff;
-    background-color: #ffffff;
-    }
-    .school-sepp2{
-    height: 5px;
-    border-radius: 3px;
-    width: 25%;
-    margin: auto;
-    margin-bottom: 5%;
-    color: rgba(0, 158, 202, 0.729);
-    border-color: rgb(0, 158, 202, 0.729);
-    background-color: rgb(0, 158, 202, 0.729);
-    }
-    .edificio-image{
-    margin-bottom: 2.5%;
-    }
-    .edificio-cont{
-    margin: auto;
-    }
-    .img-edificio{
-    width: 40%;
-    }
-    .img-util{
-    padding: 0;
-    overflow: hidden;
-    position: relative;
-    }
-    .util-bg{
-    opacity: 0.05;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    }
-    .school-container{
-    padding-top: 2.5%;
-    }
-    .school-tittle.historia-tittle{
-    padding-top: 0%;
-    text-align: center;
-    font-size: 38px;
-    letter-spacing: 1px;
-    color: rgb(0, 112, 143);
-    font-family: 'Archivo Black', sans-serif;
-    }
-    .school-description.historia-text{
-    font-size: 20px;
-    font-family: 'open sans', sans-serif;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right:15%;
-    margin-bottom: 10%; 
-    }
-    .school-tittle{
-    padding: 0;
-    margin-left: 60%;
-    text-align: center;
-    font-size: 38px;
-    letter-spacing: 1px;
-    color: rgb(0, 112, 143);
-    font-family: 'Archivo Black', sans-serif;
-    }
-    .school-description{
-    font-size: 18px;
-    font-family: 'open sans', sans-serif;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 50%;
-    margin-right:-10%;
-    }
-    .icons-image{
+/* ------------PREESCOLAR AREA------------ */
+.row.about{
+margin: 0;
+}
+.preescolar-container{
+margin-top: 12%;
+}
+.preescolar-tittle{
+font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 33px;
+color: rgb(0, 112, 143);
+font-weight: 500;
+line-height: 24px;
+margin-top: 5%;
+margin-bottom: 3%;
+}
+.preescolar-description{
+line-height: 20px;
+text-align: left;
+font-size: 16px;
+font-family: 'open sans', sans-serif;
+margin-left: 15%;
+margin-right: 10%;
+}
+.preescolar-image{
+margin-top: 5%;
+}
+.img-preescolar{
+width: 70%;
+}
+/* ------------END OF PREESCOLAR AREA------------ */
+/* ------------PHRASE AREA------------ */
+.phrase-area{
+width: 100%;
+}
+.row.phrase{
+padding: 0;
+margin: 0;
+}
+.phrase-container{
+box-sizing: border-box;
+margin-top: 6%;
+margin-bottom: 6%;
+}
+.phrase-tittle{
+font-size: 24px;
+color: rgb(90, 90, 90);
+padding: 0;
+letter-spacing: 0px;
+font-family: 'montserrat', sans-serif;
+}
+.phrase-sepp{
+border: 0;
+border-radius: 3px;
+width: 100%;
+height:5px;
+background-image: linear-gradient(to right, #eadc60, #ffcc00, #eadc60);
+}
+/* ------------END OF PHRASE AREA------------ */
+/* ------------APRENDIZAJE AREA------------ */
+.aprendizajes-area{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.wrapper {
+width: 100%;
+display: grid;
+justify-items: center;
+grid-template-columns: repeat(2, 50%);
+gap: 9px;
+grid-auto-rows: 100px 150px;
+}
+.aprendizajes-description{
+line-height: 20px;
+font-size: 14px;
+padding-top: 3%;
+padding-right: 9%;
+padding-left: 9%;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-description2{
+line-height: 20px;
+font-size: 14px;
+padding-top: 3%;
+padding-right: 9%;
+padding-left: 9%;
+font-family: 'open sans', sans-serif;
+}
+.aprendizajes-icon1{
+color: rgb(0, 113, 144);
+justify-items: center;
+font-size:70px;
+}
+.aprendizajes-icon2{
+color: rgb(0, 113, 144);
+justify-items: center;
+font-size:70px;
+}
+.aprendizajes-icon3{
+color: rgb(0, 113, 144);
+justify-items: center;
+font-size:70px;
+}
+.aprendizajes-icon4{
+color: rgb(0, 113, 144);
+justify-items: center;
+font-size:70px;
+}
+/* ------------END OF APRENDIZAJE AREA------------ */
+/* ------------INRB AREA------------ */
+    .inrb-area{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 251, 255, 0.414);
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    margin-top: 5%;
     }
-    .img-icons{
-    width: 15%;
-    margin-top: -12%;
-    margin-right: 60%;
-
+    .inrb-packet{
+    margin-top: 5%;
+    margin-bottom: 5%;
     }
-    /* ------------SCHOOL INFO AREA------------ */
+    .row.inrb{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    }
+    .inrb-description{
+    line-height: 24px;
+    margin-top: 12%;
+    margin-right: 35%;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    }
+    .img-inrb{
+    margin-left: 30%;
+    width:260px;
+    height:260px;
+    border-radius:150px;
+    }
+/* ------------END OF INRB AREA------------ */
 /* -------------------------END OF MAIN AREA PC------------------------- */
     /* -------------------------FOOTER PC------------------------- */
 .footer{

@@ -190,7 +190,7 @@
   <!------------ form contact ------------>
       <div class="vinculation">
           <h2 class="contact-tittle"><b>¡CONTÁCTANOS!</h2></b>
-          <form action="">
+          <form  id="form" class="form" action="https://formspree.io/f/xaykvwvn" method="POST">
               <div class="form-all">
                   <div class="group">
                       <input type="text" class="form-item" required><span class="bar"></span>
@@ -210,6 +210,7 @@
                   </div>
                       <button type="submit" class="btn submit-form">Enviar</button>
               </div>
+              <p id="my-form-status"></p>
           </form>
       </div>
   <!------------ end of form contact ------------>
@@ -222,10 +223,33 @@
 </footer>
 <!-------------------------- end of footer -------------------------->
 
+<!------------ script ------------>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script>
+  var form = document.getElementById("form");
 
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action,{
+      method: form.method,
+      body: data,
+      headers: {
+        'Accept': 'Application/json'
+      }
+    }).then(response => {
+      form.reset()
+      alert('¡Gracias por tu interés, te contactaremos en un momento!')
+      //status.innerHTML ="Gracias";
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    }).catch(error => {
+      alert('Ha ocurrido un error, inténtelo más tarde')
+      //status.innerHTML = "Valio madre";
+    });
+  }
+  form.addEventListener("submit",handleSubmit)
+</script>
+<!------------ script ------------>
 </body>
 </html>
