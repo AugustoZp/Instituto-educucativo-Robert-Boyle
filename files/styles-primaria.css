@@ -99,7 +99,6 @@ font-size: 32px;
 text-align: center;
 color: rgb(0, 112, 143);
 font-weight: 500;
-max-width: 540px;
 line-height: 1.2;
 }
 .primaria-description{
@@ -148,13 +147,68 @@ line-height: 1.2;
     background-image: linear-gradient(to right, #f0e68c, #ffcc00, #f0e68c);
 }
 /* ------------END OF PHRASE AREA------------ */
+
+/* ------------HORARIO BANNER AREA------------ */
+.horario-banner-area{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 235, 237);
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.horario-banner-tittle{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(28, 93, 119);
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* ------------END OF HORARIO BANNER AREA------------ */
+
+/* ------------HORARIO AREA------------ */
+.horario-area{
+    margin-bottom: 10%;
+}
+.horario-tittle{
+font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+color: rgb(0, 112, 143);
+font-weight: 500;
+line-height: 1.2;
+margin-top: 8%;
+margin-bottom: 8%;
+}
+.horario-description{
+    line-height: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+}
+.horario-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+/* ------------END OF HORARIO AREA------------ */
+
 /* ------------APRENDIZAJE AREA------------ */
 .aprendizajes-area{
 width: 100%;
 display: flex;
 justify-content: center;
 
-margin-bottom: 15%;
+margin-bottom: 20%;
 }
 .wrapper {
 width: 100%;
@@ -517,6 +571,9 @@ hr.foot-line2{
 }
 /* -------------------------END OF HEADER NAVBAR LANDSCAPE------------------------- */
 /* -------------------------MAIN LANDSCAPE------------------------- */
+.container{
+    max-width: 100%;
+}
 /* ------------PREESCOLAR AREA------------ */
 .primaria-tittle{
 font-family: 'roboto', sans-serif;
@@ -525,17 +582,16 @@ font-size: 28px;
 text-align: center;
 color: rgb(0, 112, 143);
 font-weight: 500;
-max-width: 540px;
 line-height: 1.2;
 }
 .primaria-description{
 line-height: 20px;
 margin: auto;
-text-align: center;
+text-align: left;
 margin-left: 5%;
 margin-right: 5%;
 margin-bottom: 10px;
-font-size: 14px;
+font-size: 16px;
 font-family: 'open sans', sans-serif;
 }
 .img-primaria{
@@ -546,6 +602,61 @@ margin-left: 27.5%;
 margin-right: 27.5%;
 }
 /* ------------END OF PREESCOLAR AREA------------ */
+
+/* ------------HORARIO BANNER AREA------------ */
+.horario-banner-area{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 235, 237);
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.horario-banner-tittle{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(28, 93, 119);
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* ------------END OF HORARIO BANNER AREA------------ */
+
+/* ------------HORARIO AREA------------ */
+.horario-area{
+    margin-bottom: 10%;
+}
+.horario-tittle{
+font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 22px;
+text-align: center;
+color: rgb(0, 112, 143);
+font-weight: 500;
+line-height: 1.2;
+margin-top: 4%;
+margin-bottom: 4%;
+}
+.horario-description{
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+}
+.horario-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 4%;
+}
+/* ------------END OF HORARIO AREA------------ */
+
 /* ------------PHRASE AREA------------ */
 .phrase-area{
 width: 100%;
@@ -558,7 +669,6 @@ margin: 0;
 box-sizing: border-box;
 text-align: center;
 margin: auto;
-margin-top: 10%;
 margin-bottom: 10%;
 }
 .phrase-tittle{
@@ -613,8 +723,7 @@ background-image: linear-gradient(to right, #f0e68c, #ffcc00, #f0e68c);
     background-color: rgba(231, 251, 255, 0.414);
     border-radius: 10px;
     margin-top: 5%;
-    margin-left: -8%;
-    width: 600px;
+    width: 80%;
     margin-bottom: 5%;
 }
 .inrb-packet{
@@ -757,13 +866,69 @@ margin-bottom: 3%;
 .primaria-description{
 line-height: 20px;
 text-align: center;
-font-size: 14px;
+font-size: 16px;
 font-family: 'open sans', sans-serif;
 }
 .img-primaria{
 width: 45%;
 }
 /* ------------END OF PREESCOLAR AREA------------ */
+
+
+/* ------------HORARIO BANNER AREA------------ */
+.horario-banner-area{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 235, 237);
+    border-radius: 5px;
+    margin-top: 5%;
+}
+.horario-banner-tittle{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(28, 93, 119);
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* ------------END OF HORARIO BANNER AREA------------ */
+
+/* ------------HORARIO AREA------------ */
+.horario-area{
+    margin-bottom: 0%;
+}
+.horario-tittle{
+font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 22px;
+text-align: center;
+color: rgb(0, 112, 143);
+font-weight: 500;
+line-height: 1.2;
+margin-top: 8%;
+margin-bottom: 4%;
+}
+.horario-description{
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'open sans', sans-serif;
+}
+.horario-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    margin-bottom: 4%;
+}
+/* ------------END OF HORARIO AREA------------ */
+
 /* ------------PHRASE AREA------------ */
 .phrase-area{
 width: 100%;
@@ -843,10 +1008,10 @@ font-family: 'open sans', sans-serif;
 /* ------------END OF APRENDIZAJE AREA------------ */
 /* ------------INRB AREA------------ */
 .inrb-area{
-background-color: rgba(231, 251, 255, 0.414);
+background-color: rgba(231, 251, 255, 0.485);
 border-radius: 10px;
 margin-top: 5%;
-width: 800px;
+width: 90%;
 margin-bottom: 5%;
 }
 .inrb-packet{
@@ -1155,7 +1320,7 @@ margin-top: 12%;
 .primaria-tittle{
 font-family: 'roboto', sans-serif;
 font-weight: bold;
-font-size: 33px;
+font-size: 40px;
 color: rgb(0, 112, 143);
 font-weight: 500;
 line-height: 24px;
@@ -1165,7 +1330,7 @@ margin-bottom: 3%;
 .primaria-description{
 line-height: 20px;
 text-align: left;
-font-size: 16px;
+font-size: 18px;
 font-family: 'open sans', sans-serif;
 margin-left: 15%;
 margin-right: 10%;
@@ -1177,6 +1342,64 @@ margin-top: 5%;
 width: 70%;
 }
 /* ------------END OF PREESCOLAR AREA------------ */
+
+
+
+/* ------------HORARIO BANNER AREA------------ */
+.horario-banner-area{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 235, 237);
+    border-radius: 5px;
+    margin-top: 3%;
+}
+.horario-banner-tittle{
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(28, 93, 119);
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* ------------END OF HORARIO BANNER AREA------------ */
+
+/* ------------HORARIO AREA------------ */
+.horario-area{
+margin-bottom: 0%;
+}
+.horario-tittle{
+font-family: 'roboto', sans-serif;
+font-weight: bold;
+font-size: 30px;
+text-align: center;
+color: rgb(0, 112, 143);
+font-weight: 500;
+line-height: 1.2;
+margin-top: 8%;
+margin-bottom: 4%;
+}
+.horario-description{
+    line-height: 24px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'open sans', sans-serif;
+}
+.horario-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    margin-bottom: 4%;
+}
+/* ------------END OF HORARIO AREA------------ */
+
+
 /* ------------PHRASE AREA------------ */
 .phrase-area{
 width: 100%;
@@ -1221,18 +1444,18 @@ grid-auto-rows: 100px 150px;
 }
 .aprendizajes-description{
 line-height: 20px;
-font-size: 14px;
+font-size: 18px;
 padding-top: 3%;
-padding-right: 9%;
-padding-left: 9%;
+padding-right: 12%;
+padding-left: 12%;
 font-family: 'open sans', sans-serif;
 }
 .aprendizajes-description2{
 line-height: 20px;
-font-size: 14px;
+font-size: 18px;
 padding-top: 3%;
-padding-right: 9%;
-padding-left: 9%;
+padding-right: 12%;
+padding-left: 12%;
 font-family: 'open sans', sans-serif;
 }
 .aprendizajes-icon1{
@@ -1264,9 +1487,10 @@ font-size:70px;
     align-items: center;
     background-color: rgba(231, 251, 255, 0.414);
     border-radius: 10px;
-    width: 100%;
-    margin: 0;
-    margin-top: 5%;
+    width: 80%;
+    height: 450px;
+    margin-top: 3%;
+    margin-bottom: 3%;
     }
     .inrb-packet{
     margin-top: 5%;
@@ -1281,7 +1505,7 @@ font-size:70px;
     line-height: 24px;
     margin-top: 12%;
     margin-right: 35%;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'open sans', sans-serif;
     }
     .img-inrb{
