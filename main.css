@@ -100,7 +100,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 .container{
     padding: 0;
 }
-
 .d-block.w-100{
     max-height:200px
 }
@@ -193,6 +192,7 @@ display: flex;
 margin: auto;
 margin-top: 15px;
 margin-bottom: 40px;
+border-radius: 10px;
 }
 /* ------------END OF CURSES AREA------------ */
 /* ------------SCHOOL AREA------------ */
@@ -599,6 +599,7 @@ display: flex;
 margin: auto;
 margin-top: 25px;
 margin-bottom: 40px;
+border-radius: 10px;
 }
 /* ------------END OF CURSES AREA LANDSCAPE------------ */
 /* ------------SCHOOL AREA------------ */
@@ -768,6 +769,8 @@ display: inline-block;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
+    border-radius: 30px;
+    height: 300px;
     }
     /* ------------END OF CURSES AREA TABLET------------ */
 /* ------------SCHOOL AREA TABLET------------ */
@@ -1193,6 +1196,7 @@ color: black;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border-radius: 40px;
     }
     /* ------------END OF CURSES AREA PC------------ */
 /* ------------SCHOOL AREA------------ */
