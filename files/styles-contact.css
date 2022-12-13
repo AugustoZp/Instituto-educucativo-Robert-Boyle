@@ -279,6 +279,7 @@ hr.foot-line1{
 }
 .mail{
     float: left;
+    margin-top: 1%;
     margin-left: 2%;
     justify-content: center;
     font-size: 10px;
@@ -286,6 +287,7 @@ hr.foot-line1{
     font-family: 'open sans', sans-serif;
     color: black;
 }
+
 /* ------------END OF SOCIALS AREA------------ */
 /* -----------FORM AREA----------- */
 hr.foot-line2{
@@ -565,16 +567,19 @@ display: inline-block;
 @media (min-width: 768px)
 { 
 /* -------------------------HEADER NAVBAR TABLET------------------------- */
+.navbar{
+    height: 150px;
+}
 .navbar-brand{
 background: none;
 width: auto;
 margin: auto;
 }
 .logo{
-width: 80%;
+width: 75%;
 }
 .doll{
-width: 25%;
+width: 20%;
  }
 .dropdown-menu{
 width: 100%;
@@ -585,26 +590,38 @@ font-family: 'Roboto', sans-serif;
 font-size: 18px;
 } 
 .nav-item{
-padding: 0px;
+        padding: 0px;
+        padding-top: 6%;
+        font-size: 18px;
+
 }
 .navbar-toggler{
-width: auto;
-margin:auto;
+    padding: 0%;
+    width: auto;
+    margin:auto;
+    border: 0px;
+    transition: 1s;
 }
 .navbar-toggler{
-padding: 2%;
-width: auto;
-margin:auto;
-border: 0px;
-transition: 1s;
+    padding: 0%;
+    width: auto;
+    margin:auto;
+    border: 0px;
+    transition: 1s;
 }
 .nav-link:hover{
 color: rgb(23, 111, 146);
 font-weight: bold;
 }
 .nav-item:hover{
-padding-right: 10px;
-transition: padding-right .1s;
+    padding-top: 0px;
+    transition: padding-top .3s;
+}
+.btn.contact{
+    margin-top: -10%;
+}
+.nav-button.btn.contact:hover{
+    margin-top: 0%;
 }
 /* -------------------------END OF HEADER NAVBAR TABLET------------------------- */
 
@@ -763,6 +780,9 @@ list-style: none;
 display: flex;
 height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top:1%;
+}
 /* -------------------------SOCIALS AREA TABLET------------------------- */
 .socials{
 margin-left: 50%;
@@ -792,6 +812,7 @@ margin: auto;
 float: left;
 }
 .mail{
+    margin-left: 27%;
 font-size: 12px;
 letter-spacing: 0;
 font-family: 'open sans', sans-serif;
@@ -1089,7 +1110,8 @@ margin-top: 4%;
 /* ------------END OF VISIT------------ */
     /* ------------MAPA------------ */
     .mapa{
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     padding-right: 0%;
     padding-left: 0%;
     padding-bottom: 0%;
@@ -1156,6 +1178,9 @@ list-style: none;
 display: flex;
 height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top:2%;
+}
 .socials{
 margin-top: 5%;
 margin-left: 26%;
@@ -1183,9 +1208,10 @@ font-family: 'open sans', sans-serif;
     float: left;
     padding-right: 15%;
 }
+
 .mail{
-    position: absolute;
-    margin-top: .6%;
+    margin: auto;
+    margin-left: 18%;
     font-size: 14px;
     letter-spacing: 0;
     font-family: 'open sans', sans-serif;

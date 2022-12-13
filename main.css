@@ -58,7 +58,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     color: rgb(23, 111, 146);
     font-weight: bold;
     padding-left: 10px;
-    transition: padding-left .1s;
+    transition: padding-left .2s;
 }
 .contact {
         font-size: 18px;
@@ -79,8 +79,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         -webkit-transition: background 300ms ease-in-out;
         transition: background 300ms ease-in-out;
 }
-.contact:hover {
+.btn.contact:hover {
         background-position: 0;
+        color: rgb(0, 74, 95);
 }
 /* -------------------------END OF HEADER NAVBAR AREA------------------------- */
 
@@ -393,6 +394,9 @@ hr.foot-line1{
     display: flex;
     height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top: 1%;
+}
 /* ------------SOCIALS AREA------------ */
 .socials{
     text-align: center;
@@ -427,6 +431,7 @@ hr.foot-line1{
 .mail{
     float: left;
     margin-left: 2%;
+    margin-top: .5%;
     justify-content: center;
     font-size: 10px;
     letter-spacing: 0px;
@@ -721,7 +726,7 @@ border-radius: 10px;
 .mail{
 display: inline-flex;
 justify-content: center;
-font-size: 16px;
+font-size: 12px;
 letter-spacing: 0;
 font-family: 'open sans', sans-serif;
 color: black;
@@ -747,6 +752,9 @@ display: inline-block;
 @media (min-width: 768px)
 { 
 /* -------------------------HEADER NAVBAR TABLET------------------------- */
+.navbar{
+    height: 150px;
+}
     .navbar-brand{
     background: none;
     width: auto;
@@ -754,11 +762,11 @@ display: inline-block;
     }
 
     .logo{
-    width: 80%;
+    width: 75%;
     }
 
     .doll{
-    width: 25%;
+    width: 20%;
      }
 
     .dropdown-menu{
@@ -771,15 +779,14 @@ display: inline-block;
     }
         
     .nav-item{
-    padding: 0px;
+        padding: 0px;
+        padding-top: 6%;
+        font-size: 18px;
+
     }
 
     .navbar-toggler{
-    width: auto;
-    margin:auto;
-    }
-        .navbar-toggler{
-    padding: 2%;
+    padding: 0%;
     width: auto;
     margin:auto;
     border: 0px;
@@ -792,8 +799,14 @@ display: inline-block;
     }
 
     .nav-item:hover{
-    padding-right: 10px;
-    transition: padding-right .1s;
+    padding-top: 0px;
+    transition: padding-top .3s;
+    }
+    .btn.contact{
+        margin-top: -10%;
+    }
+    .nav-button.btn.contact:hover{
+        margin-top: 0%;
     }
 /* -------------------------END OF HEADER NAVBAR TABLET------------------------- */
 /* -------------------------MAIN TABLET------------------------- */
@@ -857,7 +870,7 @@ b.extra{
     height: 60px;
     display: block;
     margin: auto;
-    margin-top: 90%;
+    margin-top: 50%;
     border-color: rgb(213, 163, 0);
     color: rgb(213, 163, 0);
     background-image: -webkit-linear-gradient(45deg, rgba(244, 171, 0, 0.419) 50%, transparent 50%);
@@ -882,7 +895,7 @@ b.extra{
     height: 60px;
     display: block;
     margin: auto;
-    margin-top: 90%;
+    margin-top: 50%;
     border-color: rgb(0, 162, 173);
     color: rgb(0, 162, 173);
     background-image: -webkit-linear-gradient(45deg, rgba(0, 238, 255, 0.269) 50%, transparent 50%);
@@ -902,7 +915,7 @@ b.extra{
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 30px;
-    height: 300px;
+    height: 150px;
     }
     /* ------------END OF CURSES AREA TABLET------------ */
 /* ------------SCHOOL AREA TABLET------------ */
@@ -1017,6 +1030,9 @@ b.extra{
     display: flex;
     height: 30px;
     }
+    .bi.bi-geo-alt{
+        margin-top:1%;
+    }
 /* -------------------------SOCIALS AREA TABLET------------------------- */
 .socials{
 margin-left: 50%;
@@ -1046,6 +1062,7 @@ margin: auto;
 float: left;
 }
 .mail{
+    margin-left: 27%;
 font-size: 12px;
 letter-spacing: 0;
 font-family: 'open sans', sans-serif;
@@ -1354,6 +1371,7 @@ b.extra{
     width: 100%;
     display: flex;
     margin: auto;
+    height: 300px;
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -1455,6 +1473,9 @@ hr.foot-line1{
     display: flex;
     height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top:2%;
+}
 .socials{
     margin-top: 5%;
     margin-left: 26%;
@@ -1483,8 +1504,8 @@ hr.foot-line1{
         padding-right: 15%;
 }
 .mail{
-    position: absolute;
-    margin-top: .6%;
+    margin: auto;
+    margin-left: 18%;
     font-size: 14px;
     letter-spacing: 0;
     font-family: 'open sans', sans-serif;

@@ -224,6 +224,9 @@ hr.foot-line1{
     display: flex;
     height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top: 0%;
+}
 /* ------------SOCIALS AREA------------ */
 .socials{
     text-align: center;
@@ -258,6 +261,7 @@ padding-bottom: 6%;
 .mail{
     float: left;
     margin-left: 2%;
+    margin-top: .5%;
     justify-content: center;
     font-size: 10px;
     letter-spacing: 0px;
@@ -524,13 +528,13 @@ padding-bottom: 7%;
 /* -------------------------FOOTER LANDSCAPE------------------------- */
 /* ------------SOCIALS AREA------------ */
 .mail{
-display: inline-flex;
-justify-content: center;
-font-size: 16px;
-letter-spacing: 0;
-font-family: 'open sans', sans-serif;
-color: black;
-display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    font-family: 'open sans', sans-serif;
+    color: black;
+    display: inline-block;
 }
 /* ------------END OF SOCIALS AREA------------ */
 /* -------------------------END OF FOOTER LANDSCAPE------------------------- */
@@ -564,16 +568,19 @@ display: inline-block;
 @media (min-width: 768px)
 { 
 /* -------------------------HEADER NAVBAR TABLET------------------------- */
+.navbar{
+    height: 150px;
+}
 .navbar-brand{
     background: none;
     width: auto;
     margin: auto;
 }
 .logo{
-    width: 80%;
+    width: 75%;
 }
 .doll{
-    width: 25%;
+    width: 20%;
 }
 .dropdown-menu{
     width: 100%;
@@ -585,13 +592,11 @@ display: inline-block;
 }   
 .nav-item{
     padding: 0px;
+    padding-top: 6%;
+    font-size: 18px;
 }
 .navbar-toggler{
-    width: auto;
-    margin:auto;
-}
-.navbar-toggler{
-    padding: 2%;
+    padding: 0%;
     width: auto;
     margin:auto;
     border: 0px;
@@ -602,8 +607,14 @@ display: inline-block;
     font-weight: bold;
 }
 .nav-item:hover{
-    padding-right: 10px;
-    transition: padding-right .1s;
+    padding-top: 0px;
+    transition: padding-top .3s;
+}
+.btn.contact{
+    margin-top: -10%;
+}
+.nav-button.btn.contact:hover{
+    margin-top: 0%;
 }
 /* -------------------------END OF HEADER NAVBAR TABLET------------------------- */
 /* -------------------------MAIN TABLET------------------------- */
@@ -759,6 +770,9 @@ hr.foot-line1{
     display: flex;
     height: 30px;
 }
+.bi.bi-geo-alt{
+    margin-top:1%;
+}
 /* -------------------------SOCIALS AREA TABLET------------------------- */
 .socials{
 margin-left: 50%;
@@ -788,6 +802,7 @@ margin: auto;
 float: left;
 }
 .mail{
+    margin-left: 27%;
 font-size: 12px;
 letter-spacing: 0;
 font-family: 'open sans', sans-serif;
@@ -1161,6 +1176,9 @@ hr.foot-line2{
     display: flex;
     height: 30px;
     }
+    .bi.bi-geo-alt{
+        margin-top:2%;
+    }
 /* -----------SOCIAL AREA PC----------- */
     .socials{
     margin-top: 5%;
@@ -1193,8 +1211,8 @@ hr.foot-line2{
     }
 
 .mail{
-    position: absolute;
-    margin-top: .6%;
+    margin: auto;
+    margin-left: 18%;
     font-size: 14px;
     letter-spacing: 0;
     font-family: 'open sans', sans-serif;
